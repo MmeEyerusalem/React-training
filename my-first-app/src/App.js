@@ -2,15 +2,22 @@
 import './App.css';
 import Welcome from './components/JSX';
 import Hi from './components/class_comp';
-import Event_funcne from './components/event-class-component';
+import ConditionalRender from './components/conditional-render';
+import Event_function from './components/event-class-component';
 import Event_funcn from './components/event-function-component';
+import Event_bind from './components/event_binding';
+import Programming from './components/lists';
 import Fullname from './components/props';
 import Subscribed from './components/state';
+import Style from './components/style';
 
 function App() {
   return (
     <div className="App">
-    <Event_funcne/>
+      {/* <Style heading={true}/> */}
+      {/* <Programming/> */}
+    {/* <Event_bind/> */}
+    {/* <Event_function/> */}
       {/* <Event_funcn/> */}
       {/* <Subscribed/> */}
       {/* <Hi/> */}
@@ -22,6 +29,7 @@ function App() {
         <button>Click here!</button>
       </Fullname>
       */}
+      {/* <ConditionalRender/> */}
       
     </div>
   );
